@@ -1,4 +1,7 @@
-podzbior()
+podzbior([],[]).
 
-podzbior([X|R],E) :-
-		sklej(_,)
+podzbior([X|R],[X|R2]) :-
+		podzbior(R,R2).
+
+podzbior([_|R],L) :-
+	podzbior(R,L).
