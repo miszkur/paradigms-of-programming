@@ -1,1 +1,1 @@
-palindrom(L) :- odwroc(L,L),
+palindrom(L) :- odwroc(L,L).
