@@ -1,2 +1,1 @@
 # prolog-agh
-# prolog-agh
