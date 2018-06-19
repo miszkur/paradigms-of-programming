@@ -1,2 +1,2 @@
 
-myReverse xs = foldr (\ x acc -> acc ++ [x]) [] xs
+myReverse xs = foldl (\ x acc -> acc : x) [] xs

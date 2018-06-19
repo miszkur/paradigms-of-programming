@@ -1,1 +1,1 @@
-# prolog-agh
+# prolog and haskell introduction at agh
